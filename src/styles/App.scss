@@ -1,0 +1,107 @@
+*{
+  border: black;
+}
+#root {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  padding: 0%;
+  margin: 0%;
+}
+
+.App, .Movielist{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.Movielist{
+  gap:10px;
+  padding: 10px;
+}
+
+
+// SEARCH INPUT
+#movieInput{
+  height: 30px;
+  background-color: rgba(240, 248, 255, 0.292);
+  backdrop-filter: blur(15px);
+  border-radius: 10px;
+  border: none;
+  color: white;
+}
+
+#searchMovie{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}
+
+#searchIcon{
+  margin: 10px;
+}
+
+input:focus, input::placeholder{
+  color: aliceblue;
+  outline: none;
+  border: none;
+  padding: 5px;
+}
+
+//MOVIE CARD
+#details{
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px;
+}
+
+// SELECT RATING
+.rating{
+  width: 100vw;
+  background-color: #f3f4f6;  
+  backdrop-filter: blur(35px);
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  color: yellow;
+  position: sticky;
+  padding: 10px 40px 10px 10px;
+  position: sticky;
+  top:55px;
+  z-index: 1;
+}
+
+//FOOTER
+#footer{
+  width: 100vw;
+  background-color: #1976D2;
+  color: white;
+  padding: 10px;
+}
+
+#socialIcons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.mediaIcon{
+  width:35px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 15px;
+  padding: 5px;
+  background-color: #1976D2;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  // transition: width 1s;
+}
+
+
