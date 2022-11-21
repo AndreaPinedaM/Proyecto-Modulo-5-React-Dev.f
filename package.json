@@ -6,7 +6,7 @@
   "homepage": "https://andreapinedam.github.io/Proyecto-Modulo-5-React-Dev.f/",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "gh-pages vite build",
     "preview": "vite preview"
   },
   "dependencies": {
