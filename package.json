@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://andreapinedam.github.io/Proyecto-Modulo-5-React-Dev.f/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -16,6 +17,7 @@
     "@mui/material": "^5.10.13",
     "axios": "^1.1.3",
     "bootstrap": "^5.2.2",
+    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.6.0",
     "react-dom": "^18.2.0",
